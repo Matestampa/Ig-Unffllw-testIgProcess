@@ -1,0 +1,17 @@
+{
+  "name": "test-ig-process",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "export APP_ENV=prod NODE_ENV=production&& node ./src/index.js",
+    "local": "set APP_ENV=local&& nodemon ./src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "https-proxy-agent": "^7.0.5",
+    "node-fetch": "^2.7.0"
+  }
+}
