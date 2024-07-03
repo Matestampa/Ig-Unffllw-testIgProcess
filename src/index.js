@@ -21,7 +21,7 @@ async function test_AllProcess(){
     
     //----------------- Traer user info -----------------------------------------------
     //Cuenta para hacer la request.
-    accountKey=AccountsUse_Manager.get_availAccount();
+    accountKey=await AccountsUse_Manager.get_availAccount();
     console.log(`Cuenta actual:${accountKey}`);
 
     //Si ya no hay cuentas disponibles
@@ -57,7 +57,7 @@ async function test_AllProcess(){
     do{ 
         
         //Cuenta para hacer la request.
-        accountKey=AccountsUse_Manager.get_availAccount();
+        accountKey=await AccountsUse_Manager.get_availAccount();
         
         console.log(`Cuenta actual:${accountKey}`);
 
