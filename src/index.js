@@ -7,7 +7,7 @@ const {userInfo_igRequest}=require("./req_userInfo.js");
 const {followers_igRequest}=require("./followers_request.js");
 
 
-const TEST_USERNAME="miuchi.b";
+const TEST_USERNAME=APP_VARS.test_username;
 const TEST_USER_ID=3407050365; //(matestamparin)
 
 const MS_BTW_REQ=400;
