@@ -48,7 +48,7 @@ async function userInfo_igRequest(username,auth_cookies,auth_headers){
         //console.log(response);
     
         data=await response.json();
-        console.log(data);
+        //console.log(data);
     }
 
     catch(e){

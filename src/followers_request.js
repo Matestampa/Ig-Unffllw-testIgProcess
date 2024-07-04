@@ -65,7 +65,7 @@ async function followers_igRequest(user_id,cursor,auth_cookies,proxyUrl){
     let users_data_map={};
     
     let URL=generate_url(BASE_URL, CONFIG.followers.hash, params)
-    console.log(URL);
+    //console.log(URL);
     //return {followers:{},cursor:"tuteee"}
     
     let response,json_data;
