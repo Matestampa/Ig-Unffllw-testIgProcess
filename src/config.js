@@ -6,7 +6,8 @@ dotenv.config({path:env_absPath});
 
 
 const APP_VARS={
-    igAccounts_file:process.env.IG_ACCOUNTS_FILE
+    igAccounts_file:process.env.IG_ACCOUNTS_FILE,
+    lastAccount_file:process.env.LAST_ACCOUNT_FILE
 }
 
 console.log(APP_VARS);
